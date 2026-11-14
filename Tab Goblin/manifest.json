@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Goblin",
+  "version": "1.0.0",
+  "description": "Tame your browser tabs. Find the dusty ones, tuck them in, and keep your favourites close.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_title": "Tab Goblin",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
